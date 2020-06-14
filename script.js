@@ -29,8 +29,7 @@ const secondObject = {
   'apple': 'fruit',
   'potato': 'vegetable',
   'strawberry': 'berry',
-};
-
+}
 
 function resolve2(inputObject) {
   let obj = new Object();
