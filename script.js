@@ -18,11 +18,9 @@ function resolve1(inputObject) {
   // rule2[val] = key;      // reverse is done here
 };
 
-
 const result1 = resolve1(firstObject);
 console.log(result1); // ожидаемый результат { 'number': 'one' }
 console.log(firstObject); // ожидаемый результат { 'one': 'number' }
-
 
 // Уровень 2: Работа с любым объектом БЕЗ вложенных объектов внутри
 // и любым количеством свойствам
@@ -31,8 +29,7 @@ const secondObject = {
   'apple': 'fruit',
   'potato': 'vegetable',
   'strawberry': 'berry',
-};
-
+}
 
 function resolve2(inputObject) {
   let obj = new Object();
